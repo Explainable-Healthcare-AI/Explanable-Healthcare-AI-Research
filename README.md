@@ -58,6 +58,25 @@ Top SHAP Features:
 3. Age
 4. Resting Blood Pressure (Trestbps)
 5. Oldpeak
+   
+# Experimental Results
+
+## ROC Curve
+
+![ROC Curve](screenshots/roc_curve.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
+## Calibration Curve
+
+![Calibration Curve](screenshots/calibration_curve.png)
+
+## SHAP Feature Importance
+
+![SHAP Feature Importance](screenshots/final_shap_bar.png)
+
 
 # System Architecture
 

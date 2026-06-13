@@ -36,6 +36,28 @@ The system integrates:
 The long-term goal is to build scalable and ethical healthcare AI infrastructure for Nepal and future global healthcare deployment.
 
 ---
+# Research Outcomes
+
+The proposed framework evaluates multiple machine learning models for cardiovascular disease prediction and combines predictive performance with explainability.
+
+Models Evaluated:
+
+- Logistic Regression
+- Random Forest
+- XGBoost
+- Explainable Boosting Machine (EBM)
+
+Explainability Method:
+
+- SHAP (SHapley Additive exPlanations)
+
+Top SHAP Features:
+
+1. Cholesterol
+2. Maximum Heart Rate Achieved (Thalach)
+3. Age
+4. Resting Blood Pressure (Trestbps)
+5. Oldpeak
 
 # System Architecture
 
@@ -72,23 +94,25 @@ This project aims to solve these issues through Explainable AI.
 - Healthcare Analytics
 
 ---
-
 # Proposed Workflow
 
-Patient Data  
-↓  
-Preprocessing  
-↓  
-Feature Extraction  
-↓  
-Machine Learning Prediction  
-↓  
-SHAP Explainability  
-↓  
-Clinical Recommendations  
-↓  
-Trustworthy Healthcare Insights
-
+Dataset
+↓
+Preprocessing
+↓
+Model Benchmarking
+↓
+Hyperparameter Optimization
+↓
+Cross Validation
+↓
+Calibration Analysis
+↓
+SHAP Explainability
+↓
+Evidence-Based Validation
+↓
+Clinical Decision Support
 ---
 
 # Repository Structure
@@ -135,12 +159,26 @@ To create transparent, ethical, and trustworthy healthcare AI systems capable of
 
 # Current Status
 
-Current Phase:
-Research Architecture & Initial Development
+Completed Experiments
 
-Upcoming Phase:
-Dataset Collection and SHAP-based Model Development
+- Data Quality Audit
+- Multi-Model Benchmarking
+- Hyperparameter Optimization
+- Cross-Validation Analysis
+- Calibration Analysis
+- SHAP Explainability
+- Evidence-Based Validation
 
+Final Selected Model
+
+- Optimized Logistic Regression
+
+Performance
+
+- Accuracy: 82.07%
+- ROC-AUC: 0.9033
+- Cross-Validation Accuracy: 80.76% ± 2.65%
+- Cross-Validation ROC-AUC: 0.8851 ± 0.0169
 ---
 
 # Contributions
